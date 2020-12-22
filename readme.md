@@ -1,5 +1,5 @@
 <a href="https://berloga-workshop.com/"><img src="https://github.com/goenningerbt/bestla/raw/main/images/bestla.png" height="200"/></a><p style="font-size:10px">  Image by berloga-workshop.com</p>
-<h1>
+
 # BESTLA
 
 ## What Is This?
@@ -9,7 +9,7 @@ b
 
 2. using Common Lisp source code files as config files,
 
-3. using CONSUL as a KV-store for configuration KV pairs,
+3. using [Consul](https://www.consul.io) by [HashiCorp](https://www.hashicorp.com) as a KV-store for configuration KV pairs,
 
 4. using environment variables for storing configuration data.
 
