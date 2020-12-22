@@ -1,4 +1,4 @@
-<a href="https://berloga-workshop.com/"><img src="https://github.com/goenningerbt/bestla/raw/main/images/bestla.png" height="200"/></a><p style="font-size:10px">  Image by berloga-workshop.com</p>
+<a href="https://berloga-workshop.com/"><img src="https://github.com/goenningerbt/bestla/raw/main/images/bestla.png" height="200"/></a> Bestla: Mother of the gods Odin, Vili and Vé. <p style="font-size:10px">  Image by berloga-workshop.com</p>
 
 # BESTLA
 
@@ -45,4 +45,4 @@ Generally you can report problems by [opening an issue](https://github.com/goenn
 * Patience.
 
 ## Contact
-Currently, this repository is managed by Frank Goenninger (a.k.a. as "frgo"). He may be reached via email at [frank.goenninger@goenninger.net](mailto:frank.goenninger@goenninger.net).
+Currently, this repository is managed by Frank Goenninger (a.k.a. as "[frgo](http://ham-and-eggs-from-frgo.blogspot.com)"). He may be reached via email at [frank.goenninger@goenninger.net](mailto:frank.goenninger@goenninger.net).
