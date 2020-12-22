@@ -5,7 +5,7 @@
 ## What Is This?
 BESTLA is a Common Lisp utility library for handling application configuration. It implements a layered configuration facility that allows for
 b
-1. using .ini file style config files,
+1. using `.ini` file style config files,
 
 2. using Common Lisp source code files as config files,
 
@@ -15,15 +15,15 @@ b
 
 BESTLA follows these rules of precedence:
 
-1. If an environment variable is defined for the configuration key, then the value of this environment variable is taken as the configuration value. This returns two values: value, :env .
+1. If an environment variable is defined for the configuration key, then the value of this environment variable is taken as the configuration value. This returns two values: value, `:env` .
 
-2. If CONSUL is configured as a configuration value store and there is an entry for the configuration key, then the stored value for the key is taken as the configuration value. This returns two values: value, :consul .
+2. If `consul` is configured as a configuration value store and there is an entry for the configuration key, then the stored value for the key is taken as the configuration value. This returns two values: value, `:consul` .
 
-3. If a config file is set as the configuration store and the configuration key is found in the config file, then the value for the key is taken as the configuration value. This returns two values: value, :file .
+3. If a config file is set as the configuration store and the configuration key is found in the config file, then the value for the key is taken as the configuration value. This returns two values: value, `:file` .
 
-4. If there is a default value configured for the given configuration key, then this value is taken as the configuration value. This returns two values: value, :default .
+4. If there is a default value configured for the given configuration key, then this value is taken as the configuration value. This returns two values: value, `:default` .
 
-5. If no configuration information is found, then this returns the values nil, nil .
+5. If no configuration information is found, then this returns the values `nil`, `nil` .
 
 ## Licensing
 
